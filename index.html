@@ -10,13 +10,13 @@
 </head>
 <body>
     <header>
-        <h1 id="logo">Dev. Bruno Eduardo</h1>
+        <a href="./index.html"><h1 id="logo">Dev.Bruno Eduardo</h1></a>
         <nav>
             <ul class="menu">
-                <a href="#about"><li class="menu1">ABOUT</li></a>
-                <a href="#tech"><li class="menu1">TECH</li></a>
-                <a href="#contact"><li class="menu1">CONTACT</li></a>
-                
+                <a href="#about"><li class="menuUnid" id="m1">ABOUT</li></a>
+                <a href="#tech"><li class="menuUnid" id="m2">TECH</li></a>
+                <a href="#works"><li class="menuUnid" id="m1">WORKS</li></a>
+                <a href="#contact"><li class="menuUnid" id="m3">CONTACT</li></a>
             </ul>
         </nav>
     </header>
@@ -34,7 +34,7 @@
             <img id="picture" src="./assets/foto.png" alt="">
            </div>
             <div id=text>
-                    <h2 id="teste" myAttribute="Bruno">About</h2>
+                    <h2 id="teste">About</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, nemo nihil. Odit, voluptatem. Impedit a velit repellat, error voluptatibus, ab, illum iure doloremque distinctio eaque praesentium sed vel quo? Pariatur
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit maxime quaerat rerum. Totam voluptatibus deserunt molestias eveniet neque officiis voluptatum nihil veritatis est saepe incidunt, earum dicta delectus sequi sapiente.
                     </p>
@@ -45,52 +45,59 @@
         </div>
     </section>
     <section>
-        <div class="tech" id="tech">
-            <h2>&lt;TECH&gt;</h2>
-            <ul>
-                <li class="box tagNames">
+        <div class="tech">
+            <h2>Languages and Tools</h2>
+            <ul class="classes">
+                <li class="box box1">
 
                     JS <br>
                     <img src="./assets/javascript.png" alt="JS">
-                    
                 </li>
-                <li class="box tagNames">
-                    
+                <li class="box box2">   
                     HTML <br>
                     <img src="./assets/html5.png" alt="HTML">
 
                 </li>
-                <li class="box tagNames">
+                <li class="box box3">
                     
                     CSS <br>
                     <img src="./assets/css3.png" alt="CSS">
 
                 </li>
-                <li class="box tagNames">
+                <li class="box box4">
                     SEO <br>
                     <img src="./assets/seo.png" alt="SEO">
                 </li>
-                
             </ul>
         </div>
     </section>
-    <footer>
+    <section>
         <div id="contact">
-            <div class="contactme"> <h3>CONTACT ME:</h3>
-           
-               <div class="contato">
-                <a href="https://api.whatsapp.com/send?phone=5545988339686"><img src="./assets/whatsapp-logo.png" alt="whatsapp"></a>
-                <a href="mailto:bruno.3duardo@hotmail.com"><img src="./assets/e-mail_icon.png" alt="email"></a>
-                <a href="https://www.linkedin.com/in/bruno-3du/"><img src="./assets/linkedin.png" alt="linkedin"></a>
-                <a href="https://github.com/bruno3du"><img src="./assets/github.png" alt="github"></a>
-               </div>
+            <div class="contactme"> <h2>Contact Me</h2>
+               <div class="redes">
+                <ul>
+                    <a href="https://api.whatsapp.com/send?phone=5545988339686"><li class="social" id="whatsapp"><img src="./assets/WhatsApp.svg" alt="whatsapp">WhatsApp</li></a>
+                    <a href="mailto:bruno.3duardo@hotmail.com"><li class="social" id="email"><img src="./assets/email.svg" alt="">E-mail</li></a>
+                    <a href="https://www.linkedin.com/in/bruno-3du/"><li class="social" id="linkedin"><img src="./assets/linkedin.svg" alt="linkedin">Linkedin</li></a>
+                    <a href="https://github.com/bruno3du"><li class="social" id="github"> <img src="./assets/github.svg" alt="github">GitHub</li></a>
+                </ul>
+                </div>
+                <div class="form">
+                    Send me a Message
+                    <br>
+                    <br>
+                    <form action="">
+                         <input class="space-input" type="text" name="name" placeholder="Nome">
+                        <br>
+                        <input class="space-input" type="email" name="email" placeholder="E-mail">
+                        <textarea class="space-input" name="message" placeholder="Sua mensagem" id="" cols="30" rows="10"></textarea>
+                    </form>
+                </div>
             </div>
-            <div class="form"></div>
 
+            <div class="form"></div>
         </div>
-    </footer>
+    </div>
+    </section>
 </body>
 </html>
-
-
-
