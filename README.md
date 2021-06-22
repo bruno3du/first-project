@@ -20,4 +20,4 @@ Como se trata de uma aplicação simples, essas duas marcações se fizeram sufi
 
 
 
-Link para ver o projeto: https://bruno3du.github.io/first-project/
+Link para ver o projeto: https://bruno3du.github.io/portfolio/
